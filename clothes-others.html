@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>KPZ Customs — Clothes Others</title>
+</head>
+<body>
+
+  <!-- Fundo animado de partículas douradas -->
+  <canvas id="particles"></canvas>
+  <div class="site-bg"></div>
+
+  <!-- MENU PRINCIPAL DO SITE -->
+  <nav class="nav">
+    <a class="brand" href="index.html" title="KPZ Customs">
+      <img src="assets/img/logo.png" alt="Logo KPZ Customs">
+    </a>
+
+    <button class="hamb" type="button" aria-label="Abrir menu">☰</button>
+
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+
+      <div class="drop">
+        <button type="button">Vehicles ▾</button>
+        <div class="drop-menu">
+          <a href="vehicles-corporation.html">Corporation</a>
+          <a href="vehicles-illegal.html">Illegal</a>
+          <a href="vehicles-others.html">Others</a>
+        </div>
+      </div>
+
+      <div class="drop">
+        <button type="button">Weapons ▾</button>
+        <div class="drop-menu">
+          <a href="weapons-custom.html">Custom Weapons</a>
+        </div>
+      </div>
+
+      <div class="drop">
+        <button type="button">Clothes & Skins ▾</button>
+        <div class="drop-menu">
+          <a href="clothes-corporation.html">Corporation</a>
+          <a href="clothes-illegal.html">Illegal</a>
+          <a href="clothes-others.html">Others</a>
+        </div>
+      </div>
+
+      <a href="free.html">Free</a>
+      <a href="terms.html">Terms</a>
+    </div>
+
+    <div class="nav-actions">
+      <a class="nav-btn" href="portfolio.html">Ver trabalhos</a>
+      <a class="nav-btn gold" href="https://discord.gg/nquZvAYmMJ" target="_blank" rel="noopener">Discord</a>
+    </div>
+  </nav>
+
+  <!-- CAPA DA CATEGORIA -->
+  <section class="page-hero">
+    <div>
+      <div class="eyebrow">KPZ Customs</div>
+      <h1>Others</h1>
+      <p>Roupas, skins e acessórios cadastrados nessa divisão.</p>
+    </div>
+  </section>
+
+  <!-- PROJETOS DA CATEGORIA
+       Esta grade é preenchida automaticamente pelo script.js.
+       Para adicionar projetos nesta página, cadastre no data.js com:
+       categoria: 'clothes'
+       subcategoria: 'Others' -->
+  <section class="section">
+    <div class="grid" id="projectGrid" data-category="clothes" data-sub="Others"></div>
+  </section>
+
+  <!-- MODAL DE PROJETO
+       Quando você clica em um card, os detalhes aparecem aqui.
+       Os dados vêm do arquivo data.js. -->
+  <div class="modal">
+    <div class="modal-box">
+      <button class="modal-close" type="button">×</button>
+
+      <div class="product-layout">
+        <div>
+          <img id="modalMain" class="main-img" src="" alt="Imagem principal do projeto">
+
+          <div class="buy-row">
+            <a id="modalDownload" href="https://discord.gg/nquZvAYmMJ" target="_blank" rel="noopener">Solicitar Projeto</a>
+            <button type="button">🛒</button>
+          </div>
+        </div>
+
+        <div class="details">
+          <span class="tag" id="modalCategory"></span>
+          <h2 id="modalTitle">Projeto</h2>
+          <h3>Project Details</h3>
+
+          <div class="details-card">
+            <h4 id="modalDetailsTitle">Projeto</h4>
+            <ul id="modalDetails"></ul>
+          </div>
+
+          <div class="thumb-grid" id="modalThumbs"></div>
+          <p class="support" id="modalDesc">Para suporte, entre no Discord oficial da KPZ Customs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <b>KPZ Customs</b> — Portfólio FiveM Premium •
+    <a href="https://discord.gg/nquZvAYmMJ" target="_blank" rel="noopener" style="color:#d9b82f">Discord Oficial</a>
+  </footer>
+
+  <!-- Scripts do site -->
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
