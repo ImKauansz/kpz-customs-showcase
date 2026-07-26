@@ -485,6 +485,37 @@ const projetos = [
       'assets/img/cordao-kodex/cordao-kodex-1.png',
       'assets/img/cordao-kodex/cordao-kodex-2.png'
     ]
+  },
+
+    {
+    id: 'kit-inicial-pvrj',
+    nome: 'Kit Inicial - PAVUNA RJ',
+    categoria: 'clothes',
+    subcategoria: 'others',
+    imagem: 'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo1.png',
+    descricao: 'Kit completo para iniciar sua jornada na PAVUNA RJ com estilo, organização e qualidade premium.',
+    destaque: true,
+    detalhes: [
+      'Pacote completo para novos jogadores',
+      'Itens exclusivos da cidade PAVUNA RJ',
+      'Modelagens e texturas em alta qualidade',
+      'Visual otimizado para FiveM',
+      'Compatível com servidores QBCore e ESX',
+      'Arquivos leves e bem organizados',
+      'Fácil instalação',
+      'Proteção contra dumps'
+    ],
+    galeria: [
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo1.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo2.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo3.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo4.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo5.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo6.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo7.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo8.png',
+      'assets/img/kit-inicial-pvrj/kit-inicial-pvrj-photo9.png'
+    ]
   }
 
 ];
